@@ -1,0 +1,27 @@
+{
+  "name": "rpc-playground",
+  "version": "1.0.0",
+  "description": "basic grpc usage for async/sync calls in node",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arupadhy/rpc-playground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arupadhy/rpc-playground/issues"
+  },
+  "homepage": "https://github.com/arupadhy/rpc-playground#readme",
+  "dependencies": {
+    "google-protobuf": "^3.12.2",
+    "grpc": "^1.24.2"
+  }
+}

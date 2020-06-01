@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package helloworld;
+
+// service definition
+service NumberGenerator {
+  // generates a random number
+  rpc GenerateNumber(NumberRequest) returns (NumberReply) {}
+}
+
+// output message
+message NumberReply {
+  int32 result = 1;
+  string source = 2;
+}
+
+// input message
+message NumberRequest {
+  int32 base = 1;
+}
